@@ -39,9 +39,9 @@ export default function Footer() {
             <div className="nx-footer-col">
               <h4>Contact</h4>
 
-              <a href="mailto:info@nexoralabs.online" className="contact-item">
+              <a href="mailto:info@nexoralabs.site" className="contact-item">
                 {/* <Mail size={16} /> */}
-                <span>info@nexoralabs.online</span>
+                <span>info@nexoralabs.site</span>
               </a>
 
               <a
@@ -59,11 +59,11 @@ export default function Footer() {
                     LinkedIn
                   {/* <Linkedin size={16} /> */}
                 </a>
-                <a href="#" aria-label="Facebook">
+                <a href="https://www.facebook.com/share/1DouJLZdQh/?mibextid=wwXIfr" aria-label="Facebook">
                     Facebook
                   {/* <Facebook size={16} /> */}
                 </a>
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/nexoralablk" aria-label="Instagram">
                     Instagram
                   {/* <Instagram size={16} /> */}
                 </a>
