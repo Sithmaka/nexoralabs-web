@@ -1,0 +1,107 @@
+/* =========================
+   FOOTER WRAPPER
+========================= */
+.nx-footer {
+  background: #f5f7fa;
+  padding: 80px 0 30px;
+  margin-top: 80px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.nx-footer-container {
+  width: min(1200px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* =========================
+   TOP GRID
+========================= */
+.nx-footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* =========================
+   BRAND COLUMN
+========================= */
+.nx-footer-logo {
+  height: 40px;
+  margin-bottom: 14px;
+}
+
+.nx-footer-col.brand p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.7;
+  max-width: 300px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+.nx-footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* =========================
+   LINKS
+========================= */
+.nx-footer-col a {
+  display: block;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 10px;
+  transition: all 0.25s ease;
+}
+
+.nx-footer-col a:hover {
+  color: #1554b3;
+}
+
+/* =========================
+   CONTACT ITEMS
+========================= */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* =========================
+   DIVIDER + BOTTOM
+========================= */
+.nx-footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.nx-footer-bottom p {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .nx-footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nx-footer-top {
+    grid-template-columns: 1fr;
+  }
+}
