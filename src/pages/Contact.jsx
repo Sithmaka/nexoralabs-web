@@ -5,6 +5,7 @@ import { Mail, MessageSquareText, MapPin } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/pages/contact.css";
+import SEO from "../components/SEO";
 
 const mapImage =
   "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1400&auto=format&fit=crop";
@@ -81,6 +82,12 @@ I would like to discuss my project.`;
 
   return (
     <>
+      <SEO
+        title="Contact"
+        description="Contact Nexora Labs to build your website, business system, or AI solution."
+        keywords="contact web developer Sri Lanka, Nexora Labs contact"
+        url="https://www.nexoralabs.site/contact"
+      />
       <Navbar />
 
       <main className="contact-page">

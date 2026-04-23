@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/pages/pricing.css";
+import SEO from "../components/SEO";
 
 const websitePlans = [
   {
@@ -133,6 +134,12 @@ const stagger = {
 export default function Pricing() {
   return (
     <>
+      <SEO
+        title="Pricing"
+        description="Affordable web development, e-commerce, AI chatbot, and business automation pricing plans in Sri Lanka."
+        keywords="website pricing Sri Lanka, ecommerce development cost, chatbot pricing"
+        url="https://www.nexoralabs.site/pricing"
+      />
       <Navbar />
 
       <main className="pricing-page">

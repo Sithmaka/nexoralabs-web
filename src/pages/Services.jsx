@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/pages/services.css";
+import SEO from "../components/SEO";
 
 const services = [
   {
@@ -88,6 +89,12 @@ const stagger = {
 export default function Services() {
   return (
     <>
+      <SEO
+        title="Services"
+        description="Explore Nexora Labs services including web development, AI automation, business systems, and UI/UX design."
+        keywords="web development services, ERP system Sri Lanka, AI chatbot development"
+        url="https://www.nexoralabs.site/services"
+      />
       <Navbar />
 
       <main className="services-page">

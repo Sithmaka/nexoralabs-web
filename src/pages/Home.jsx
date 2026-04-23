@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/pages/home.css";
+import SEO from "../components/SEO";
 
 const heroDashboard =
   "/icons.svg";
@@ -85,6 +86,13 @@ const stagger = {
 export default function Home() {
   return (
     <>
+      <SEO
+        title="Web Development & AI Solutions"
+        description="Nexora Labs provides high-performance web development, business systems, and AI solutions for startups and enterprises."
+        keywords="web development Sri Lanka, AI chatbot Sri Lanka, POS system, ERP system, Nexora Labs"
+        url="https://www.nexoralabs.site/"
+        image="https://images.unsplash.com/photo-1551434678-e076c223a692"
+      />
       <Navbar />
 
       <main className="home-page">
